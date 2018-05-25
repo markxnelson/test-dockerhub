@@ -1,0 +1,13 @@
+box: ubuntu
+
+build:
+  steps:
+    - script:
+      code: | 
+        echo "do something"
+    - internal/docker-push:
+      username: $REPO_USERNAME
+      password: $REPO_PASSWORD
+      repository: docker.io/v2
+      registry: markxnelson/test-dockerhub
+      tag: latest
