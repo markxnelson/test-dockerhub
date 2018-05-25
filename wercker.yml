@@ -8,5 +8,6 @@ build:
     - internal/docker-push:
       username: $REPO_USERNAME
       password: $REPO_PASSWORD
+      repository: https://hub.docker.io/v2
       registry: markxnelson/test-dockerhub
       tag: latest
