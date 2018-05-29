@@ -8,6 +8,6 @@ build:
     - internal/docker-push:
       username: $REPO_USERNAME
       password: $REPO_PASSWORD
-      registry: https://iad.ocir.io/v2
+      registry: https://iad.ocir.io/v2/
       repository: odx-pipelines/wercker-ocir-test/test-mark
       tag: latest
