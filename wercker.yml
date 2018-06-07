@@ -1,4 +1,4 @@
-box: ubuntu
+box: mysql:5.7
 
 build:
   steps:
@@ -9,5 +9,5 @@ build:
       username: $REPO_USERNAME
       password: $REPO_PASSWORD
       registry: https://iad.ocir.io/v2/
-      repository: odx-pipelines/spinnaker/test-image
-      tag: latest
+      repository: odx-pipelines/spinnaker/mysql
+      tag: 5.7
